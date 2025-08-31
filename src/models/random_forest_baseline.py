@@ -9,8 +9,6 @@ Key Features:
 - Feature importance ranking
 - Baseline for comparison with deep learning models
 
-Author: AI Assistant
-Date: 2025
 """
 
 import numpy as np
