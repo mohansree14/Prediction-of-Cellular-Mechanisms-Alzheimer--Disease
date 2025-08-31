@@ -13,8 +13,6 @@ The pipeline includes:
 - Result visualization and interpretation
 - Synthetic data generation
 
-Author: Dissertation Research
-Date: 2024
 """
 
 import sys
