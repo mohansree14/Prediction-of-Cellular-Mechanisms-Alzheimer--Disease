@@ -5,8 +5,6 @@ Pathway Enrichment Analysis Script
 This script performs pathway enrichment analysis on top genes identified by
 machine learning models to discover biological mechanisms relevant to Alzheimer's disease.
 
-Author: AI Assistant
-Date: 2024
 """
 
 import os
