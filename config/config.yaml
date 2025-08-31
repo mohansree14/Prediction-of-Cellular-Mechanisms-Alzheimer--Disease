@@ -1,0 +1,6 @@
+# Central configuration for all data and output paths
+
+data_path: data/raw/combined_data_fixed.csv
+results_dir: results/
+sample_size: 10000
+random_seed: 42 

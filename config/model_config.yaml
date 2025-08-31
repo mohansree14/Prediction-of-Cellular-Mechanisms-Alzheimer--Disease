@@ -1,0 +1,176 @@
+# Model Configuration for Single-Cell RNA Sequencing Analysis
+# Hybrid Model Approach Configuration
+
+# Data Processing Configuration
+data_processing:
+  chunk_size: 10000
+  random_state: 42
+  test_size: 0.2
+  validation_size: 0.1
+  
+  # Quality Control Parameters
+  quality_control:
+    min_genes: 200
+    max_genes: 6000
+    min_cells: 3
+    min_counts: 500
+    max_counts: 50000
+    max_mito: 0.2
+
+# Feature Engineering
+feature_engineering:
+  # Feature Selection
+  feature_selection:
+    method: "variance_threshold"  # Options: variance_threshold, mutual_info, recursive
+    threshold: 0.01
+    n_features: 1000
+    
+  # Dimensionality Reduction
+  dimensionality_reduction:
+    method: "pca"  # Options: pca, umap, tsne
+    n_components: 50
+    random_state: 42
+
+# Traditional Machine Learning Models
+traditional_models:
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 2
+    min_samples_leaf: 1
+    random_state: 42
+    n_jobs: -1
+    
+  support_vector_machine:
+    kernel: "rbf"
+    C: 1.0
+    gamma: "scale"
+    random_state: 42
+    
+  gradient_boosting:
+    n_estimators: 100
+    learning_rate: 0.1
+    max_depth: 6
+    random_state: 42
+    
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    random_state: 42
+
+# Deep Learning Models
+deep_learning:
+  neural_network:
+    layers: [512, 256, 128, 64]
+    dropout_rate: 0.3
+    activation: "relu"
+    output_activation: "softmax"
+    optimizer: "adam"
+    learning_rate: 0.001
+    batch_size: 32
+    epochs: 100
+    early_stopping_patience: 10
+    
+  autoencoder:
+    encoder_layers: [256, 128, 64, 32]
+    decoder_layers: [32, 64, 128, 256]
+    latent_dim: 16
+    dropout_rate: 0.2
+    activation: "relu"
+    optimizer: "adam"
+    learning_rate: 0.001
+    batch_size: 32
+    epochs: 50
+    
+  variational_autoencoder:
+    encoder_layers: [256, 128, 64]
+    decoder_layers: [64, 128, 256]
+    latent_dim: 16
+    beta: 1.0
+    dropout_rate: 0.2
+    activation: "relu"
+    optimizer: "adam"
+    learning_rate: 0.001
+    batch_size: 32
+    epochs: 50
+
+# Hybrid Models
+hybrid_models:
+  ensemble:
+    voting_method: "soft"  # Options: hard, soft
+    weights: "auto"  # Options: auto, uniform, or list of weights
+    
+  stacked_generalization:
+    meta_learner: "logistic_regression"
+    cv_folds: 5
+    random_state: 42
+    
+  weighted_ensemble:
+    optimization_method: "grid_search"  # Options: grid_search, bayesian
+    cv_folds: 5
+    random_state: 42
+
+# Model Evaluation
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1_score"
+    - "roc_auc"
+    - "confusion_matrix"
+    
+  cross_validation:
+    method: "stratified_kfold"
+    n_splits: 5
+    random_state: 42
+    
+  hyperparameter_tuning:
+    method: "grid_search"  # Options: grid_search, random_search, bayesian
+    cv_folds: 5
+    n_iter: 100  # For random_search and bayesian
+
+# Interpretability
+interpretability:
+  feature_importance:
+    method: "shap"  # Options: shap, lime, permutation
+    n_samples: 1000
+    
+  model_explanation:
+    method: "shap"
+    background_samples: 100
+
+# Visualization
+visualization:
+  style: "seaborn"
+  figsize: [12, 8]
+  dpi: 300
+  save_format: "png"
+  
+  colors:
+    primary: "#1f77b4"
+    secondary: "#ff7f0e"
+    tertiary: "#2ca02c"
+    quaternary: "#d62728"
+    quinary: "#9467bd"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/analysis.log"
+
+# Output
+output:
+  save_models: true
+  save_predictions: true
+  save_plots: true
+  save_reports: true
+  
+  paths:
+    models: "results/models/"
+    predictions: "results/predictions/"
+    plots: "results/figures/"
+    reports: "results/reports/"
+    tables: "results/tables/" 
