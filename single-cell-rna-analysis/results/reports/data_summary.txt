@@ -1,0 +1,57 @@
+============================================================
+COMPREHENSIVE DATA SUMMARY
+============================================================
+
+NUMERIC FEATURES SUMMARY:
+------------------------------
+          nCount_RNA   nFeature_RNA  RNA_snn_res.0.8  seurat_clusters
+count  194248.000000  194248.000000    194248.000000    194248.000000
+mean     2837.109675    1434.427428         7.162740         7.162740
+std      4711.726787    1408.427829         6.946887         6.946887
+min       207.000000     199.000000         0.000000         0.000000
+25%       706.000000     448.000000         2.000000         2.000000
+50%      1501.572971     872.000000         5.000000         5.000000
+75%      3317.000000    1962.000000        11.000000        11.000000
+max    365734.000000   11448.000000        32.000000        32.000000
+
+
+CATEGORICAL FEATURES SUMMARY:
+------------------------------
+
+Marker Cell Type:
+  Astrocytes: 93,850 (46.4%)
+  Excitatory neurons: 29,969 (14.8%)
+  Pericytes: 22,989 (11.4%)
+  Oligodendrocytes: 22,185 (11.0%)
+  Inhibitory neurons: 14,449 (7.1%)
+  Oligodendrocyte precursor cells: 9,665 (4.8%)
+  Microglia: 7,233 (3.6%)
+  Endothelial cells: 1,802 (0.9%)
+
+Scina Cell Type:
+  unknown: 61,016 (30.2%)
+  Excitatory neurons: 58,986 (29.2%)
+  Oligodendrocytes: 36,116 (17.9%)
+  Microglia: 13,756 (6.8%)
+  Inhibitory neurons: 12,132 (6.0%)
+  Astrocytes: 11,484 (5.7%)
+  Oligodendrocyte precursor cells: 5,049 (2.5%)
+  Pericytes: 2,795 (1.4%)
+  Endothelial cells: 808 (0.4%)
+
+Predicted.Id:
+  Excitatory neurons: 219,936 (44.0%)
+  Oligodendrocytes: 103,297 (20.7%)
+  Microglia: 54,969 (11.0%)
+  Inhibitory neurons: 49,071 (9.8%)
+  Astrocytes: 48,489 (9.7%)
+  Oligodendrocyte precursor cells: 18,590 (3.7%)
+  Endothelial cells: 4,549 (0.9%)
+  Pericytes: 989 (0.2%)
+  unknown: 110 (0.0%)
+
+
+DATA QUALITY METRICS:
+------------------------------
+Total numeric records analyzed: 194,248
+Missing values in numeric data: 0

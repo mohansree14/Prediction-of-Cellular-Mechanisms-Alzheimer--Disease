@@ -1,0 +1,2 @@
+rna_count_mean,rna_count_std,rna_count_median,rna_count_q25,rna_count_q75,rna_count_skew,rna_count_kurtosis,feature_count_mean,feature_count_std,feature_count_median,feature_count_skew,feature_count_kurtosis,rna_feature_ratio_mean,rna_feature_ratio_std,rna_feature_ratio_median,cluster_diversity,cluster_entropy
+2837.1096745629557,4711.726787004678,1501.5729708753252,706.0,3317.0,9.521052845324277,297.70814368182346,1434.4274278242247,1408.4278288850483,872.0,1.7204678343690674,2.823918870232613,1.7556185569112006,0.866308583484976,1.5035971223021583,33,4.340092964117123
