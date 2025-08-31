@@ -218,22 +218,22 @@ This project is for academic research purposes.
 
 ## 👨‍🎓 Author
 
-**Student Name**  
-**Institution**  
-**Supervisor:** [Supervisor Name]  
-**Year:** 2024
+**Student Name**  Mohansree Vijayakumar
+**Institution**  university of surrey
+**Supervisor:** Dr . Samaneh Kouchaki   
+**Year:** 2025
 
 ## 📞 Contact
 
 For questions about this dissertation project, please contact:
-- **Email:** [your.email@institution.edu]
-- **Institution:** [Your Institution]
+- **Email:** mv00582@surrey.ac.uk
+- **Institution:** university of surrey
 
 ---
 
-**Last Updated:** December 2024  
+**Last Updated:** Sep 2025  
 **Version:** 1.0.0  
-**Status:** In Progress
+**Status:** completed
 
 ## Running the Complete Pipeline
 
@@ -323,4 +323,5 @@ This project analyzes single-cell RNA sequencing (scRNA-seq) and spatial transcr
 - Review logs in `results/logs/` for error details.
 
 ## Contact
+
 For questions or issues, please contact the repository owner.
