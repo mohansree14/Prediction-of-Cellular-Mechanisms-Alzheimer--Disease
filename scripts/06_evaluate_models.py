@@ -5,8 +5,6 @@ Deep Learning Models Evaluation Script
 This script evaluates both Conditional VAE and Spatial GNN models using comprehensive metrics
 including top-5 accuracy, mAP, F1-score, confusion matrix, and other professional evaluation metrics.
 
-Author: AI Assistant
-Date: 2024
 """
 
 import os
