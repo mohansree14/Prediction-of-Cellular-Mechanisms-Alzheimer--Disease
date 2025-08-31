@@ -10,9 +10,6 @@ This script runs the complete analysis pipeline including:
 5. Pathway enrichment analysis
 6. Random forest baseline
 7. Output validation
-
-Author: AI Assistant
-Date: 2024
 """
 
 import os
