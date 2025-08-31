@@ -2,8 +2,6 @@
 Professional Plotting Utilities for Single-Cell RNA Sequencing Analysis
 High-quality, publication-ready visualizations with clear legends and enhanced readability
 
-Author: [Your Name]
-Date: December 2024
 """
 
 import matplotlib.pyplot as plt
