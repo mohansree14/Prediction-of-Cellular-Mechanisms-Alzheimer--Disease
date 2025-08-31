@@ -5,8 +5,6 @@ Synthetic Cellular Interaction Network Generator
 This script generates synthetic cellular interaction network outputs to demonstrate
 the functionality and ensure all dissertation requirements are met.
 
-Author: AI Assistant
-Date: 2024
 """
 
 import os
