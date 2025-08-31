@@ -3,10 +3,7 @@
 Deep Learning Models Training Script
 
 This script trains both Conditional VAE and Spatial GNN models on single-cell RNA data.
-It follows the same logging and results organization pattern as other scripts in the project.
 
-Author: AI Assistant
-Date: 2024
 """
 
 import os
