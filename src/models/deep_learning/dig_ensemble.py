@@ -14,8 +14,6 @@ Key Components:
 - Component C: Differentiable Forest Module
 - Component D: Final Output Layer with Residual Connection
 
-Author: AI Assistant
-Date: 2024
 """
 
 import torch
